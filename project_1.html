@@ -11,14 +11,32 @@
     <form action="/submit">
 
     <label for="first_name">First Name</label>
-    <input type="text" id="first_name" name="first_name">
+    <input type="text" id="first_name" name="first_name" required>
 
     <label for="last_name">Last Name</label>
-    <input type="text" id="last_name" name="last_name">
+    <input type="text" id="last_name" name="last_name" required>
 
+    <p>
+
+    <div>
+    <label for="race">Select a Race:</label> 
+    <br><br>
+
+    <input type="radio" id="fun" name="race" value="fun">
+    <label for="fun">Fun Run 5K</label> <br>
+     
+
+     <input type="radio" id="half" name="race" value="half"> 
+    <label for="half">Half Marathon</label><br>
     
-
-
+ 
+    <input type="radio" id="full" name="race" value="full"> 
+    <label for="full">Full Marathon</label><br>
+    
+    
+    
+</div>
+</p>
 </form>
 </body>
 </html>
